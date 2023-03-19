@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: Calibri;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+
+.note-add {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background: rgb(62, 173, 62);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.note {
+    max-width: 50%;
+    min-width: 300px;
+    margin-top: 50px;
+    background: rgb(184, 167, 167);
+    padding: 10px;
+    min-height: 350px;
+    box-shadow: 2px 4px 10px rgb(184, 167, 167);
+    border-radius: 5px;
+}
+
+.note-header {
+    font-size: 24px;
+    justify-content: space-between;
+    font-weight: 700;
+    display: flex;
+}
+
+#note-title {
+    width: 250px;
+    height: 75px;
+    overflow-y: scroll;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.note-actions {
+    width: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.note-actions button {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#note-descr {
+    font-size: 1.2rem;
+    font-family: Calibri;
+    margin-top: 30px;
+    width: 350px;
+    text-align: justify;
+}
+
+#note-descr-input {
+    margin-top: 30px;
+    width: 100%;
+    height: 75%;
+}
+
+.edit {
+    background: rgb(60, 200, 255);
+    color: rgb(240, 240, 240);
+    padding-left: 2px;
+}
+
+.delete {
+    background: rgba(255, 0, 0, 0.74);
+    color: rgb(235, 232, 232);
+}
+
+.hidden {
+    display: none;
+}
