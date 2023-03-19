@@ -102,6 +102,7 @@
 .delete {
     background: rgba(255, 0, 0, 0.74);
     color: rgb(235, 232, 232);
+    margin-left: 10px;
 }
 
 .hidden {
